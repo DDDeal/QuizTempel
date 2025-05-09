@@ -23,7 +23,7 @@ Unsere neueste Version bringt spannende neue Features und Verbesserungen für de
 - Verbesserte Stabilität im Multiplayer-Modus
 - Fehler bei der Anzeige von Ranglisten behoben
 - Problem mit dem Laden von Bildern in einigen Quizzen behoben
-- [Änderungen an der Datenschutzerklärung](/privacypolicy)
+- [Änderungen an der Datenschutzerklärung](/datenschutz)
 
 <br>
 
