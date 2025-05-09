@@ -79,10 +79,15 @@
 	</div>
 	<div class="footerLinks">
 		{% for page in site.pages %}
-			<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+			{% if page.include_in_footer != false %}
+				<a href="{{ page.url | relative_url }}" target="_self">{{ page.title }}</a>
+			{% endif %}
 		{% endfor %}
 		{% if site.presskit_download_link %}
 			<a href="{{ site.presskit_download_link }}">Press Kit</a>
+		{% endif %}
+		{% if site.support_link %}
+			<a href="{{ site.support_link }}" target="_blank">{{ site.support_text }}</a>
 		{% endif %}
 	</div>
 </footer>
