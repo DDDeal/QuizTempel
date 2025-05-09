@@ -1,6 +1,7 @@
 Git Befehle:
 
 Ordner Push:
-git add _pages/agb.md _pages/datenschutz.md
+Git . (ganzer ordner)
+git add _pages/agb.md _pages/datenschutz.md (bestimmte dateien)
 git commit -m "Rechtliche Seiten hinzugefügt: Datenschutz, Impressum, AGB, Haftungsausschluss und EULA"
 git push -u origin master
