@@ -53,26 +53,14 @@ features                                  :
   - title                                 : Regelmäßige Updates
     description                           : Neue Fragen und Kategorien werden regelmäßig hinzugefügt.
     fontawesome_icon_name                 : sync
-
-  - title                                 : Offline-Modus
-    description                           : Spiele auch ohne Internetverbindung deine Lieblingsquizze.
-    fontawesome_icon_name                 : wifi-slash
   
   - title                                 : Statistiken
     description                           : Verfolge deinen Fortschritt und erkenne deine Stärken und Schwächen.
     fontawesome_icon_name                 : chart-bar
 
-  - title                                 : Benutzerdefinierte Quizze
-    description                           : Erstelle deine eigenen Quizze und teile sie mit Freunden.
-    fontawesome_icon_name                 : pencil-alt
-
   - title                                 : Kategorien
     description                           : Wähle aus verschiedenen Kategorien wie Geschichte, Wissenschaft, Literatur, Sport und viele mehr.
     fontawesome_icon_name                 : folder
-
-  - title                                 : Schwierigkeitsgrade
-    description                           : Wähle zwischen verschiedenen Schwierigkeitsgraden, um dein Wissen zu testen.
-    fontawesome_icon_name                 : sliders-h
 
 
 
