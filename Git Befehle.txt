@@ -1,0 +1,6 @@
+Git Befehle:
+
+Ordner Push:
+git add .
+git commit -m "Rechtliche Seiten hinzugefügt: Datenschutz, Impressum, AGB, Haftungsausschluss und EULA"
+git push -u origin master
