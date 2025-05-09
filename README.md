@@ -2,16 +2,12 @@
 
 **Die ultimative Quiz-App für Wissenshungrige und Quizbegeisterte.**
 
-Diese Landing Page ist für die QuizTempel App optimiert. Die Landing Page wurde mit Jekyll erstellt und ist für GitHub Pages konfiguriert.
-
 ## Features der App
 
 - **Vielfältige Quizfragen**: Tausende von Fragen aus verschiedenen Wissensgebieten
 - **Verschiedene Spielmodi**: Einzelspieler- und Mehrspieler-Modi für maximalen Spielspaß
 - **Ranglisten**: Vergleiche deine Ergebnisse mit Freunden und anderen Spielern
-- **Offline-Modus**: Spiele auch ohne Internetverbindung
 - **Persönliche Statistiken**: Verfolge deinen Fortschritt und erkenne deine Stärken
-- **Benutzerdefinierte Quizze**: Erstelle deine eigenen Fragen und teile sie mit der Community
 
 ## Installation
 
