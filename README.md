@@ -1,3 +1,52 @@
+# QuizTempel - Die Quiz-App für Wissenshungrige
+
+**Die ultimative Quiz-App für Wissenshungrige und Quizbegeisterte.**
+
+Diese Landing Page ist für die QuizTempel App optimiert. Die Landing Page wurde mit Jekyll erstellt und ist für GitHub Pages konfiguriert.
+
+## Features der App
+
+- **Vielfältige Quizfragen**: Tausende von Fragen aus verschiedenen Wissensgebieten
+- **Verschiedene Spielmodi**: Einzelspieler- und Mehrspieler-Modi für maximalen Spielspaß
+- **Ranglisten**: Vergleiche deine Ergebnisse mit Freunden und anderen Spielern
+- **Offline-Modus**: Spiele auch ohne Internetverbindung
+- **Persönliche Statistiken**: Verfolge deinen Fortschritt und erkenne deine Stärken
+- **Benutzerdefinierte Quizze**: Erstelle deine eigenen Fragen und teile sie mit der Community
+
+## Installation
+
+Die App ist verfügbar für:
+- iOS (demnächst im App Store)
+- Android (demnächst im Google Play Store)
+
+## Anpassungen an der Landing Page
+
+Die Landing Page kann einfach angepasst werden:
+
+### In `_config.yml` ändern:
+- App-Informationen (Name, Beschreibung, Preis)
+- Features und Icons
+- Farbschema
+- Kontaktinformationen
+
+### In `assets/` hinzufügen:
+- Screenshots der App (`assets/screenshot/`)
+- Videos der App (`assets/videos/`)
+- App-Icon (`assets/appicon.png`)
+
+### In `_pages/` anpassen:
+- Datenschutzrichtlinie (`_pages/privacypolicy.md`)
+- Änderungsprotokoll (`_pages/changelog.md`)
+
+## Kontakt
+
+QuizTempel Team  
+E-Mail: info@quiztempel.de
+
+## Lizenz
+
+MIT Lizenz
+
 # Automatic App Landing Page
 **Create and deploy an iOS app landing page on GitHub Pages in only five minutes.**
 

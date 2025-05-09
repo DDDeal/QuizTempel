@@ -1,65 +1,89 @@
 ---
 layout: page
-title: What's New
+title: Neuigkeiten
 include_in_header: true
 ---
 
-# Changelog
-Here you can keep a changelog for your app. Edit the markdown based CHANGELOG.md which is located in the _pages directory. The changelog below is simply an example changelog that serves to exemplify how the markdown can be used. You can be as creative as you want with the markdown.
+# Änderungsprotokoll
+Hier findest du alle Neuerungen und Verbesserungen an unserer QuizTempel App.
 
 <br>
 
-### `Latest`
-# **Version 2.0**
-This is the first update to our app. Jeez **goodness** by kept more sensually a much far proper exotically precise [here is a link](https://www.google.com) and and illicit hey uninspiring the more sat honey knelt before before bearish bowed lorikeet wolf grandly instead diligently and rhinoceros imperative.
+### `Aktuelle Version`
+# **Version 2.5.0**
+Unsere neueste Version bringt spannende neue Features und Verbesserungen für dein Quiz-Erlebnis!
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+#### Neue Funktionen
+- **Tägliche Herausforderungen**: Jeden Tag neue Quizfragen mit besonderen Belohnungen
+- **Erweiterte Statistiken**: Detaillierte Auswertungen deiner Spielergebnisse
+- **Neue Quizkategorien**: Über 500 neue Fragen zu Filmen, Serien und Videospielen
+- **Community-Quizze**: Spiele Quizze, die von anderen Nutzern erstellt wurden
 
-#### Bug Fixes
-- Much far proper exotically precise unaccountable.
-- [Changes to Privacy Policy](/privacypolicy)
+#### Fehlerbehebungen
+- Verbesserte Stabilität im Multiplayer-Modus
+- Fehler bei der Anzeige von Ranglisten behoben
+- Problem mit dem Laden von Bildern in einigen Quizzen behoben
+- [Änderungen an der Datenschutzerklärung](/privacypolicy)
 
 <br>
 
-### **Version 2.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+### **Version 2.4.0**
+Diese Version bringt wesentliche Verbesserungen für den Mehrspielermodus und neue Inhalte!
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+#### Neue Funktionen
+- **Verbesserter Mehrspieler-Modus**: Spiele nun in Echtzeit gegen bis zu 5 Freunde
+- **Quiz-Editor**: Erstelle und teile deine eigenen Quizze mit der Community
+- **Neue Themen**: Über 300 neue Fragen zu Wissenschaft und Technik
+
+#### Fehlerbehebungen
+- Performance-Optimierungen für schnellere Ladezeiten
+- Verbesserungen der Benutzeroberfläche für eine bessere Navigation
+- Diverse kleine Fehler behoben
 
 <br>
 
 ________
 <br>
 
-### `Initial Release`
-# **Version 1.0**
-Cracked a more and iguana a without some echidna a abnormal hello and beat thanks jeepers gnu jeepers until up depending for drooled awfully angelfish relentless much a well wasp some in impala darn and overate greedily wow kookaburra beneath much wistful fluid until and lemming less armadillo redoubtable after much capybara wow that hence interbred timorous loosely oh divisively wherever because jeepers until since as that goodness roadrunner insanely belated physic jeepers hey jeepers much the beside steadfastly up toward indubitably this goodness playful.
+### `Frühere Versionen`
+# **Version 2.0.0**
+Mit dieser großen Aktualisierung haben wir QuizTempel grundlegend überarbeitet für ein noch besseres Spielerlebnis!
+
+#### Neue Funktionen
+- **Komplett neues Design**: Modernere und benutzerfreundlichere Oberfläche
+- **Offline-Modus**: Spiele jetzt auch ohne Internetverbindung
+- **Freundschaftssystem**: Füge Freunde hinzu und fordere sie zu Duellen heraus
+- **Personalisierte Quizvorschläge**: Basierend auf deinen Interessen und deiner Spielhistorie
+
+#### Fehlerbehebungen
+- Verbessertes Ladeverhalten bei langsamer Internetverbindung
+- Fehler beim Speichern von Spielständen behoben
+- Diverse kleine Verbesserungen und Optimierungen
 
 <br>
 
-## **Version 1.1**
-Abnormal and formidable against much the before well improper more spent far heron amicably iguana plainly swanky upon mammoth **much paid darn some tapir** some glared save crud more regarding one accommodating gosh cannily and on hungry a more goodness inside merry yikes wedded versus because some a a a shined anteater goldfinch jeez up so and this this a.
+## **Version 1.5.0**
+Diese Version führt den beliebten Duell-Modus ein und bringt zahlreiche Verbesserungen!
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
+#### Neue Funktionen
+- **Duell-Modus**: Fordere andere Spieler zu direkten Quiz-Duellen heraus
+- **Erweiterte Ranglisten**: Vergleiche deine Ergebnisse mit Freunden und global
+- **Tägliche Belohnungen**: Erhalte täglich Bonus-Punkte für regelmäßiges Spielen
+
+#### Fehlerbehebungen
+- Verbesserte Stabilität und Performance
+- Probleme mit der Punkteberechnung behoben
+- Anzeigefehler auf bestimmten Geräten behoben
 
 <br>
 
-## Version 1.0.1
-That wow robin one and gosh audibly darn that variously less across softly awakened under affectingly wildebeest from jeepers far contemplated and indisputably clung jeepers much mistaken some after mumbled hey certain neatly far alas more trod the swelled rolled permissively so save pert the tapir paradoxical off so then juggled crud a however overslept vehemently kept indisputably anteater walked alas or into.
+## **Version 1.0.0**
+Die erste öffentliche Version unserer QuizTempel App!
 
-#### What's New
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-- Much far proper exotically precise unaccountable.
-
-#### Bug Fixes
-- Improved user sign up experience.
-- Unlike deliberately zebra hen oh jeez understandable. Alas and quit oh snooty unlike deliberately.
+#### Features
+- Über 1000 Quizfragen aus verschiedenen Kategorien
+- Einzelspieler-Modus mit verschiedenen Schwierigkeitsgraden
+- Spielprofile mit Statistiken und Erfolgen
+- Ranglisten zum Vergleich mit anderen Spielern
 
 <br>
