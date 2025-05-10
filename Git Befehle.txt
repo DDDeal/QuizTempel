@@ -1,7 +1,7 @@
 Git Befehle:
 
 Ordner Push:
-git pull (kp)
+git pull (wenn man online im repository änderungen vorgenommen hat, muss man erst pullen, um dann pushen zu können)
 git add . (ganzer ordner)
 git add _pages/agb.md _pages/datenschutz.md (bestimmte dateien)
 git commit -m "Rechtliche Seiten hinzugefügt: Datenschutz, Impressum, AGB, Haftungsausschluss und EULA"
