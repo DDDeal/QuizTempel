@@ -23,7 +23,7 @@ Unsere neueste Version bringt spannende neue Features und Verbesserungen für de
 - Verbesserte Stabilität beim Spielerwechsel in Duellen
 - Optimierte Ladezeiten beim Aktualisieren der Spielliste
 - Probleme mit der Anzeige von Freundeslisten behoben
-- [Änderungen an der Datenschutzerklärung](/datenschutz)
+- [Änderungen an der Datenschutzerklärung](/QuizTempel/datenschutz)
 
 <br>
 
