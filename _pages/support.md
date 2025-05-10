@@ -34,4 +34,4 @@ Wir sind bemüht, alle Anfragen innerhalb von 48 Stunden zu beantworten.
 
 ## Aktuelle Version
 
-Die aktuelle Version von QuizTempel ist 2.5.0. Detaillierte Informationen zu den Neuerungen findest du in den [Versionshinweisen](/neuigkeiten). 
+Die aktuelle Version von QuizTempel ist 2.5.0. Detaillierte Informationen zu den Neuerungen findest du in den [Versionshinweisen](/QuizTempel/neuigkeiten/). 
