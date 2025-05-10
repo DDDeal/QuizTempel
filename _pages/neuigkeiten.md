@@ -86,4 +86,4 @@ Die erste öffentliche Version unserer QuizTempel App!
 - Spielprofile mit Statistiken und Erfolgen
 - Ranglisten zum Vergleich mit anderen Spielern
 
-<br>
+<br> 
