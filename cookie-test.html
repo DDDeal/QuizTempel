@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie Consent Test</title>
+    
+    <!-- Cookie Consent direkt von CDN einbinden -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.css">
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieconsent.umd.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOMContentLoaded Event ausgelöst');
+            
+            // Prüfen ob CookieConsent verfügbar ist
+            if (typeof CookieConsent === 'undefined') {
+                console.error('Cookie Consent ist nicht geladen. Bitte prüfen Sie die Einbindung der Script-Dateien.');
+                return;
+            }
+            
+            console.log('CookieConsent ist verfügbar');
+            
+            // Vorhandenes Cookie löschen, um sicherzustellen, dass das Banner angezeigt wird
+            document.cookie = 'cc_cookie=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+            
+            try {
+                // Cookie Consent Einstellungen
+                console.log('Initialisiere CookieConsent');
+                var cc = CookieConsent.run({
+                    // Locales/Sprache
+                    language: {
+                        default: 'de',
+                        translations: {
+                            de: {
+                                consentModal: {
+                                    title: 'Wir verwenden Cookies!',
+                                    description: 'Hallo, diese Website verwendet essenzielle Cookies, um ihren ordnungsgemäßen Betrieb zu gewährleisten, und Tracking-Cookies, um zu verstehen, wie Sie mit ihr interagieren. Letztere werden nur nach Zustimmung gesetzt werden.',
+                                    acceptAllBtn: 'Alle akzeptieren',
+                                    acceptNecessaryBtn: 'Alle ablehnen',
+                                    showPreferencesBtn: 'Einstellungen verwalten',
+                                    footer: '<a href="#">Datenschutzerklärung</a>'
+                                },
+                                preferencesModal: {
+                                    title: 'Cookie-Einstellungen',
+                                    acceptAllBtn: 'Alle akzeptieren',
+                                    acceptNecessaryBtn: 'Alle ablehnen',
+                                    savePreferencesBtn: 'Einstellungen speichern',
+                                    closeIconLabel: 'Schließen',
+                                    serviceCounterLabel: 'Dienste',
+                                    sections: [
+                                        {
+                                            title: 'Cookie-Verwendung',
+                                            description: 'Wir verwenden Cookies, um die grundlegenden Funktionen der Website zu gewährleisten und um Ihr Online-Erlebnis zu verbessern. Sie können für jede Kategorie wählen, ob Sie sich an- oder abmelden möchten.'
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    
+                    // Kategorien mit entsprechenden Cookies
+                    categories: {
+                        necessary: {
+                            enabled: true,
+                            readOnly: true
+                        }
+                    },
+                    
+                    // Layout und GUI
+                    guiOptions: {
+                        consentModal: {
+                            layout: 'box',
+                            position: 'bottom right',
+                            equalWeightButtons: true,
+                            flipButtons: false
+                        },
+                        preferencesModal: {
+                            layout: 'box',
+                            equalWeightButtons: true,
+                            flipButtons: false
+                        }
+                    },
+                    
+                    // Sofort anzeigen
+                    autoShow: true,
+                    
+                    // Immer beim Besuch der Seite anzeigen (für Testzwecke)
+                    forceShow: true
+                });
+                
+                // Manuelle Anzeige des Banners (für Testzwecke)
+                setTimeout(function() {
+                    console.log('Versuche, Banner manuell anzuzeigen');
+                    if (cc && cc.show) {
+                        cc.show();
+                    }
+                }, 1000);
+                
+                console.log('Cookie Consent wurde erfolgreich initialisiert');
+            } catch (error) {
+                console.error('Fehler beim Initialisieren von Cookie Consent:', error);
+            }
+        });
+    </script>
+</head>
+<body>
+    <h1>Cookie Consent Test</h1>
+    <p>Auf dieser Seite sollte ein Cookie-Banner erscheinen. Wenn nicht, überprüfen Sie die Browser-Konsole auf Fehler.</p>
+</body>
+</html> 
