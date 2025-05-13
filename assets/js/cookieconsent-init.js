@@ -1,13 +1,21 @@
 // Cookie Consent Initialisierung
 document.addEventListener('DOMContentLoaded', function() {
+    console.log('DOMContentLoaded Event ausgelöst');
+    
     // Prüfen ob CookieConsent verfügbar ist
     if (typeof CookieConsent === 'undefined') {
         console.error('Cookie Consent ist nicht geladen. Bitte prüfen Sie die Einbindung der Script-Dateien.');
         return;
     }
-
+    
+    console.log('CookieConsent ist verfügbar');
+    
+    // Vorhandenes Cookie löschen, um sicherzustellen, dass das Banner angezeigt wird
+    document.cookie = 'cc_cookie=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+    
     try {
         // Cookie Consent Einstellungen
+        console.log('Initialisiere CookieConsent');
         var cc = CookieConsent.run({
             // Locales/Sprache
             language: {
@@ -122,8 +130,19 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             
             // Sofort anzeigen
-            autoShow: true
+            autoShow: true,
+            
+            // Immer beim Besuch der Seite anzeigen (für Testzwecke)
+            forceShow: true
         });
+        
+        // Manuelle Anzeige des Banners (für Testzwecke)
+        setTimeout(function() {
+            console.log('Versuche, Banner manuell anzuzeigen');
+            if (cc && cc.show) {
+                cc.show();
+            }
+        }, 1000);
         
         console.log('Cookie Consent wurde erfolgreich initialisiert');
     } catch (error) {
