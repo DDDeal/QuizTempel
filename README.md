@@ -2,6 +2,9 @@
 
 **Eine moderne Quiz-App mit Fokus auf Gameplay, Performance und Multiplayer-Erlebnis.**
 
+🌐 Live Demo (Landing Page):
+https://dddeal.github.io/QuizTempel/
+
 📲 **iOS Download:**
 https://apps.apple.com/de/app/quiztempel/id6745153485
 
